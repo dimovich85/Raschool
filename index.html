@@ -1,98 +1,127 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Главная - визитка Мастера Юры</title>
-</head>
-<body>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
     <header>
-        <a href="index.html">
-            <img src="img/logo.svg" alt="Логотип компании. Ндпись на логотипе: Печкин." width="200" >
-        </a>
-        <nav>
-            <p>
-                Меню:
-            </p>
-            
-            <ul>
-                <li>
-                    <a href="portfolio.html">Партфолио</a>
-                </li>
-                <li>
-                    <a href="contacts.html">Кантакты</a>
-                </li>
-            </ul>    
-        </nav>    
-    </header>
-    <div>
-        <h1>Сайт - визитка мастера по печам - мастера Юры</h1>
-    </div>
-    <div>
-        <img src="img/banner.jpg" 
-                alt="Бонер. Надпись на барере: печки, камины, мангалы. Картинка на банере: горящий камн со свечами,
-                рядом декаративная пальма в горшке.">     
-    </div>
-    <main>
-        <section>
-            <h2>
-                Кто я 
-            </h2>
-            <p> 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis necessitatibus voluptate, rerum exercitationem alias eius. Inventore harum necessitatibus error qui unde! Placeat eaque natus, et corrupti qui aliquid ipsam rem!
-            </p>    
-        </section>
-        <section>
-            <h2>
-                Мои цены
-            </h2>
-            <table border="2">
-                <thead>
-                    <tr>
-                        <td>
-                            Название услуги
-                        </td>
-                        <td>
-                            Цена в сезон
-                        </td>
-                        <td>
-                            Цена не в сезон
-                        </td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Печка</td>
-                        <td>1000$</td>
-                        <td>700$</td> 
-                    </tr>
-                    <tr>
-                        <td>Камин</td>
-                        <td>2000$</td>
-                        <td>1700$</td> 
-                    </tr>
-                    <tr>
-                        <td>Мангал</td>
-                        <td>1500$</td>
-                        <td>Не занимаюсь</td> 
-                    </tr>
-                </tbody>
-            </table>     
-        </section>
-    </main>
-    <footer>
-        <p>Номера телефонов и почта:</p>
-        <p>
-            <a href="tel:+79001112233">
-                <img width="15" height="15" src="img/icons/phone.svg" alt="Иконка телефона" >
-                +7 (900) 111 - 22 - 33
-            </a>
-            <a href="mailto:master.yura@gmail.com">
-                <img width="15" height="15" src="img/icons/email.svg" alt="Иконка электронной почты">
-                master.yura@gmail.com
-            </a>
+      <a href="index.html">
+        <img
+          src="img/logo.svg"
+          alt="Логотип компании. Ндпись на логотипе: Печкин."
+          width="200"
+        />
+      </a>
+      <nav class="main-nav">
+        <p class="main-nav__text">
+          Меню:
         </p>
-        <p>Все права защищены &copy; 2020</p>    
+
+        <ul class="main-nav__list">
+          <li>
+            <a class="main-nav__link" href="portfolio.html">Партфолио</a>
+          </li>
+          <li>
+            <a class="main-nav__link" href="contacts.html">Кантакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Сайт - визитка мастера по печам - мастера Юры</h1>
+    <aside class="border">
+      <img
+        src="img/banner.jpg"
+        alt="Бонер. Надпись на барере: печки, камины, мангалы. Картинка на банере: горящий камн со свечами,
+        рядом декаративная пальма в горшке."
+      />
+    </aside>
+    <main>
+      <article class="abaut">
+        <h2>
+          Кто я
+        </h2>
+        <p>
+          Популярность каминов в наше время постоянно растет. Этому есть немало
+          причин. Нам кажется, что главная из них это стремление избежать
+          типового однообразия квартир, желание сделать интерьер своего жилища
+          уютным, привлекательным и оригинальным. Но при этом многие почему-то
+          придерживаются мнения, что построить камин очень сложно и хлопотно. Но
+          это совсем не так. Во всяком случае — не сложнее, чем печку, а даже
+          наоборот. Но, конечно,при условии, что за дело берутся профессионалы.
+        </p>
+        <p>
+          Наша команда печников готова построить Вам камин или печной комплекс
+          любой сложности и самого разнообразного дизайна. Мы занимаемся
+          строительством печных изделий более 15 лет в Киеве и области и делаем
+          свою работу качественно и надежно, вкладывая в нее душу. Камин или
+          другой печной агрегат будет служить долго надежно и создаст уют в
+          Вашем доме.
+        </p>
+      </article>
+      <section class="prices">
+        <h2>
+          Мои цены
+        </h2>
+        <table class="prices__table table">
+          <thead class="table__thead">
+            <tr>
+              <td>
+                Название услуги
+              </td>
+              <td>
+                Цена в сезон
+              </td>
+              <td>
+                Цена не в сезон
+              </td>
+            </tr>
+          </thead>
+          <tbody class="table__tbody">
+            <tr>
+              <td>Печка</td>
+              <td>1000$</td>
+              <td>700$</td>
+            </tr>
+            <tr>
+              <td>Камин</td>
+              <td>2000$</td>
+              <td>1700$</td>
+            </tr>
+            <tr>
+              <td>Мангал</td>
+              <td>1500$</td>
+              <td>Не занимаюсь</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer-text">Номера телефонов и почта:</p>
+      <p class="footer-link">
+        <a href="tel:+79001112233">
+          <img
+            width="33.68"
+            height="44"
+            src="img/icons/phone.svg"
+            alt="Иконка телефона"
+          />
+          +7 (900) 111 - 22 - 33
+        </a>
+        <a href="mailto:master.yura@gmail.com">
+          <img
+            width="45.42"
+            height="29"
+            src="img/icons/email.svg"
+            alt="Иконка электронной почты"
+          />
+          master.yura@gmail.com
+        </a>
+      </p>
+      <p class="footer-copy">Все права защищены &copy; 2020</p>
     </footer>
-</body>
+  </body>
 </html>
