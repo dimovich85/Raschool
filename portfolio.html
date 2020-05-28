@@ -1,80 +1,125 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио - визитка Мастера Юры</title>
-</head>
-<body>
-    <a href="index.html">
-        <img src="img/logo.svg" alt="Логотип компании. Ндпись на логотипе: Печкин." width="200" >
-    </a>
-    <p>
-        Меню:
-    </p>
-    
-    <ul>
-        <li>
-            <a href="portfolio.html">Партфолио</a>
-        </li>
-        <li>
-            <a href="contacts.html">Кантакты</a>
-        </li>
-    </ul>
-    <h1>Мои работы</h1>
-    <img src="img/banner.jpg" 
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img
+          src="img/logo.svg"
+          alt="Логотип компании. Ндпись на логотипе: Печкин."
+          width="200"
+        />
+      </a>
+      <nav class="main-nav">
+        <p class="main-nav__text">
+          Меню:
+        </p>
+
+        <ul class="main-nav__list">
+          <li>
+            <a class="main-nav__link" href="portfolio.html">Партфолио</a>
+          </li>
+          <li>
+            <a class="main-nav__link" href="contacts.html">Кантакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <aside class="border">
+      <img
+        src="img/banner.jpg"
         alt="Бонер. Надпись на барере: печки, камины, мангалы. Картинка на банере: горящий камн со свечами,
-        рядом декаративная пальма в горшке.">
+        рядом декаративная пальма в горшке."
+      />
+    </aside>
+    <h1>Мои работы</h1>
+    <main>
+      <section>
         <h2>Печки</h2>
-        <img src="img/img1.jpg" alt="печка 1"> 
-            <h3>Печка 1</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, deserunt. Quo molestias incidunt nostrum 
-                voluptatum eos neque vel dolores eius!
-            </p>
-        <img src="img/img2.jpg" alt="печка 2"> 
-            <h3>Печка 2</h3>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed illum sit aliquam maiores mollitia 
-                dolore delectus corrupti nisi a nemo!
-            </p>
+        <article>
+          <img src="img/img1.jpg" alt="Печь Superior Miriam" />
+          <h3>Печь Superior Miriam</h3>
+          <p class="description_of_work">
+            Конструкция топочной части оптимизирует расход воздуха для горения,
+            обеспечивая...
+          </p>
+        </article>
+        <article>
+          <img src="img/img2.jpg" alt="Печь Maddalena" />
+          <h3>Печь Maddalena</h3>
+          <p class="description_of_work">
+            Превосходный материал, соединяющий в себе традиционное мастерство с
+            его вниманием к деталям...
+          </p>
+        </article>
+      </section>
+      <section>
         <h2>Камины</h2>
-        <img src="img/img3.jpg" alt="Камин 1"> 
-            <h3> Камин 1</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, deserunt. Quo molestias incidunt 
-                nostrum voluptatum eos neque vel dolores eius!
-            </p>
-            <img src="img/img4.jpg" alt="Камин 2"> 
-            <h3>Камин 2</h3>
-            <p>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, deserunt. Quo molestias incidunt
-                 nostrum voluptatum eos neque vel dolores eius!
-            </p>
+        <article>
+          <img src="img/img3.jpg" alt="Камин Flamma Турин" />
+          <h3>Камин Flamma Турин</h3>
+          <p class="description_of_work">
+            Конструкция топочной части оптимизирует расход воздуха для горения,
+            обеспечивая...
+          </p>
+        </article>
+        <article>
+          <img src="img/img4.jpg" alt="Камин Rain Flatto" />
+          <h3>Камин Rain Flatto</h3>
+          <p class="description_of_work">
+            Превосходный материал, соединяющий в себе традиционное мастерство с
+            его вниманием к деталям...
+          </p>
+        </article>
+      </section>
+      <section>
         <h2>Мангалы</h2>
-        <img src="img/img3.jpg" alt="Камин 1"> 
-            <h3> Мангал 1</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, deserunt. Quo molestias incidunt 
-                nostrum voluptatum eos neque vel dolores eius!
-            </p>
-            <img src="img/img4.jpg" alt="Камин 2"> 
-            <h3>Мангал 2</h3>
-            <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, deserunt. Quo molestias incidunt
-                    nostrum voluptatum eos neque vel dolores eius!
-            </p>
-    <p>Номера телефонов и почта:</p>
-    <p>
+        <article>
+          <img src="img/img3.jpg" alt="Мангал" />
+          <h3>Мангал</h3>
+          <p class="description_of_work">
+            Конструкция топочной части оптимизирует расход воздуха для горения,
+            обеспечивая...
+          </p>
+        </article>
+        <article>
+          <img src="img/img4.jpg" alt="Мангал" />
+          <h3>Мангал</h3>
+          <p class="description_of_work">
+            Превосходный материал, соединяющий в себе традиционное мастерство с
+            его вниманием к деталям...
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer-text">Номера телефонов и почта:</p>
+      <p class="footer-link">
         <a href="tel:+79001112233">
-            <img width="15" height="15" src="img/icons/phone.svg" alt="Иконка телефона" >
-            +7 (900) 111 - 22 - 33
+          <img
+            width="33.68"
+            height="44"
+            src="img/icons/phone.svg"
+            alt="Иконка телефона"
+          />
+          +7 (900) 111 - 22 - 33
         </a>
         <a href="mailto:master.yura@gmail.com">
-            <img width="15" height="15" src="img/icons/email.svg" alt="Иконка электронной почты">
-            master.yura@gmail.com
+          <img
+            width="45.42"
+            height="29"
+            src="img/icons/email.svg"
+            alt="Иконка электронной почты"
+          />
+          master.yura@gmail.com
         </a>
-    </p>
-    <p>Все права защищены &copy; 2020</p>
-</body>
+      </p>
+      <p class="footer-copy">Все права защищены &copy; 2020</p>
+    </footer>
+  </body>
 </html>
