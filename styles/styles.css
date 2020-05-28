@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0%;
+}
+a {
+  text-decoration: none;
+  color: #343f46;
+}
+h1 {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #ffffff;
+  background-color: #343f46;
+  text-align: center;
+}
+h3 {
+  font-size: 21px;
+  line-height: 26px;
+  color: #461602;
+  text-align: center;
+}
+.main-nav__text {
+  display: none;
+}
+.main-nav__list {
+  list-style: none;
+}
+.main-nav__link {
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.border {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+  font-size: 48px;
+  line-height: 59px;
+  color: #461602;
+  text-align: center;
+}
+.abaut {
+  font-size: 18px;
+  line-height: 166.5%;
+  color: #343f46;
+  text-align: center;
+}
+.prices__table {
+  box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.1);
+}
+.table__thead {
+  font-size: 21px;
+  line-height: 26px;
+  color: #461602;
+}
+.table__tbody {
+  font-size: 21px;
+  line-height: 26px;
+  color: #343f46;
+}
+.footer-text {
+  font-size: 21px;
+  line-height: 26px;
+  color: #461602;
+  text-align: center;
+}
+.footer-link {
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+.footer-copy {
+  font-size: 14px;
+  line-height: 17px;
+  color: #343f46;
+  text-align: center;
+}
+.description_of_work {
+  font-size: 16px;
+  line-height: 134.1%;
+  color: #343f46;
+  text-align: center;
+}
+.tel__term {
+  list-style: none;
+  text-align: center;
+}
+.tel__num {
+  font-size: 36px;
+  line-height: 44px;
+  color: #343f46;
+}
+.networks-icon {
+  text-align: center;
+}
+.networks-text {
+  font-size: 21px;
+  line-height: 166.5%;
+  color: #343f46;
+  text-align: center;
+}
