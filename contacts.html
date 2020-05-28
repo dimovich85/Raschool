@@ -1,142 +1,173 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
     <header>
-        <a href="index.html">
-            <img src="img/logo.svg" alt="Логотип компании. Ндпись на логотипе: Печкин." width="200" >
-        </a>
-        <nav>
-            <p>
-                Меню:
-            </p>
-            
-            <ul>
-                <li>
-                    <a href="portfolio.html">Партфолио</a>
-                </li>
-                <li>
-                    <a href="contacts.html">Кантакты</a>
-                </li>
-            </ul>    
-        </nav>    
-    </header>
-    <div>
-        <h1>Связаться со мной</h1>  
-    </div>
-    <div>
-        <img src="img/banner.jpg" 
-                alt="Бонер. Надпись на барере: печки, камины, мангалы. Картинка на банере: горящий камн со свечами,
-                рядом декаративная пальма в горшке.">    
-    </div>  
-    <main>
-        <section>
-            <h2>Мои номера</h2>
-                <ul>
-                    <li>
-                    <a href="tel:+79001112233">
-                        <img width="15" height="15" src="img/icons/phone.svg" alt="Иконка телефона" >
-                        +7 (900) 111 - 22 - 33
-                        </a>  
-                    </li>
-                    <li>
-                    <a href="tel:+79002223344">
-                        <img width="15" height="15" src="img/icons/phone.svg" alt="Иконка телефона" >
-                        +7 (900) 222 - 33 - 44
-                        </a>  
-                    </li>
-                </ul>
-                
-        </section>
-        <section>
-            <h2>Мои соц.сети</h2>
-                <p>
-                    <a href="https://www.facebook.com/">
-                        <img width="50" height="50" src="img/icons/fb.svg" alt="Facebook" >
-                    </a>
-                    <a href="https://www.instagram.com">
-                        <img width="50" height="50" src="img/icons/instagram.svg" alt="Instagram">
-                    </a>
-                    <a href="https://www.youtube.com">
-                        <img width="50" height="50" src="img/icons/youtube.svg" alt="YouTube">
-                    </a>
-                </p>   
-        </section>
-        <div>
-            <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque fuga minima dolor 
-                    aliquam nam eligendi distinctio molestias delectus sequi obcaecati error esse dolorum 
-                    reiciendis voluptates eius a, ratione velit vel corrupti consequatur quam? Quod, adipisci.
-                    Aut voluptatibus libero delectus enim voluptates eos, est quod hic fugiat cumque laboriosam 
-                    unde modi nam magnam sequi. Reiciendis officia consectetur adipisci cum? Magnam, officiis.
-                </p>    
-        </div>
-        <section>
-            <h2>
-                Форма для связи
-            </h2>
-                <form action="#" method="post">
-                    <p>
-                        <label for="feild-name">
-                            Имя:
-                        </label>
-                        <input 
-                            name="#"
-                            id="feild-name"
-                            type="text"
-                            placeholder="Саша">
-                    </p> 
-                    <p>
-                        <label for="feild-number">
-                            Телефон:
-                        </label>
-                        <input 
-                            name="#"
-                            id="feild-number"
-                            type="number"
-                            placeholder="+79001112233">
-                    </p> 
-                    <p>
-                        <label for="feild-email">
-                            Почта:
-                        </label>
-                        <input 
-                            name="#"
-                            id="feild-email"
-                            type="email"
-                            placeholder="user@site.domen" 
-                            required>
-                    </p> 
-                    <p>
-                        <label for="feild-text">
-                            Сообщение:
-                        </label>
-                        <textarea 
-                            name="#" 
-                            id="feild-text"
-                            placeholder="Ну ок, что там у Вас?">Хочу заказать!</textarea>
-                    </p>
-                    <button>Отправить</button>
-                </form>    
-        </section>
-    </main>
-    <footer>
-        <p>Номера телефонов и почта:</p>
-        <p>
-            <a href="tel:+79001112233">
-                <img width="15" height="15" src="img/icons/phone.svg" alt="Иконка телефона" >
-                +7 (900) 111 - 22 - 33
-            </a>
-            <a href="mailto:master.yura@gmail.com">
-                <img width="15" height="15" src="img/icons/email.svg" alt="Иконка электронной почты">
-                master.yura@gmail.com
-            </a>
+      <a href="index.html">
+        <img
+          src="img/logo.svg"
+          alt="Логотип компании. Ндпись на логотипе: Печкин."
+          width="200"
+        />
+      </a>
+      <nav class="main-nav">
+        <p class="main-nav__text">
+          Меню:
         </p>
-        <p>Все права защищены &copy; 2020</p>    
+
+        <ul class="main-nav__list">
+          <li>
+            <a class="main-nav__link" href="portfolio.html">Партфолио</a>
+          </li>
+          <li>
+            <a class="main-nav__link" href="contacts.html">Кантакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Связаться со мной</h1>
+    <aside class="border">
+      <img
+        src="img/banner.jpg"
+        alt="Бонер. Надпись на барере: печки, камины, мангалы. Картинка на банере: горящий камн со свечами,
+        рядом декаративная пальма в горшке."
+      />
+    </aside>
+    <main>
+      <section class="abaut-tel tel">
+        <h2>Мои номера</h2>
+        <p class="tel__term">
+          <a class="tel__num" href="tel:+79001112233">
+            <img
+              width="33.68"
+              height="44"
+              src="img/icons/phone.svg"
+              alt="Иконка телефона"
+            />
+            +7 (900) 111 - 22 - 33
+          </a>
+          <a class="tel__num" href="tel:+79002223344">
+            <img
+              width="33.68"
+              height="44"
+              src="img/icons/phone.svg"
+              alt="Иконка телефона"
+            />
+            +7 (900) 222 - 33 - 44
+          </a>
+        </p>
+      </section>
+      <section class="abaut-networks">
+        <h2>Мои соц.сети</h2>
+        <p class="networks-icon">
+          <a href="https://www.facebook.com/">
+            <img
+              width="25.08"
+              height="49.21"
+              src="img/icons/fb.svg"
+              alt="Facebook"
+            />
+          </a>
+          <a href="https://www.instagram.com">
+            <img
+              width="50"
+              height="50"
+              src="img/icons/instagram.svg"
+              alt="Instagram"
+            />
+          </a>
+          <a href="https://www.youtube.com">
+            <img
+              width="64.11"
+              height="44.83"
+              src="img/icons/youtube.svg"
+              alt="YouTube"
+            />
+          </a>
+        </p>
+        <p class="networks-text">
+          Следите за мной в соцсетях. Там много интересного:) Подпищикам —
+          скидки!
+        </p>
+      </section>
+      <section>
+        <h2>
+          Форма для связи
+        </h2>
+        <form action="#" method="post">
+          <p>
+            <label for="feild-name">
+              Имя:
+            </label>
+            <input name="#" id="feild-name" type="text" placeholder="Саша" />
+          </p>
+          <p>
+            <label for="feild-number">
+              Телефон:
+            </label>
+            <input
+              name="#"
+              id="feild-number"
+              type="number"
+              placeholder="+79001112233"
+            />
+          </p>
+          <p>
+            <label for="feild-email">
+              Почта:
+            </label>
+            <input
+              name="#"
+              id="feild-email"
+              type="email"
+              placeholder="user@site.domen"
+              required
+            />
+          </p>
+          <p>
+            <label for="feild-text">
+              Сообщение:
+            </label>
+            <textarea
+              name="#"
+              id="feild-text"
+              placeholder="Ну ок, что там у Вас?"
+            >
+Хочу заказать!</textarea
+            >
+          </p>
+          <button>Отправить</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer-text">Номера телефонов и почта:</p>
+      <p class="footer-link">
+        <a href="tel:+79001112233">
+          <img
+            width="33.68"
+            height="44"
+            src="img/icons/phone.svg"
+            alt="Иконка телефона"
+          />
+          +7 (900) 111 - 22 - 33
+        </a>
+        <a href="mailto:master.yura@gmail.com">
+          <img
+            width="45.42"
+            height="29"
+            src="img/icons/email.svg"
+            alt="Иконка электронной почты"
+          />
+          master.yura@gmail.com
+        </a>
+      </p>
+      <p class="footer-copy">Все права защищены &copy; 2020</p>
     </footer>
-</body>
+  </body>
 </html>
